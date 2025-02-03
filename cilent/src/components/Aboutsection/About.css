@@ -1,0 +1,92 @@
+.section-about {
+    margin-top: 10rem;
+    padding: 5rem;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    .about-content {
+        margin: 0 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3rem;
+
+        h1 {
+            font-family: "Satisfy", serif;
+            color: white;
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 4rem;
+        }
+
+        p {
+            color: black;
+            font-size: 2rem;
+            font-weight: 4000;
+            line-height: 3rem;
+
+
+        }
+    }
+
+    .about-form {
+        padding: 2rem;
+        background-color: rgb(255, 202, 105);
+        border-radius: 20px;
+
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 2rem;
+            align-items: center;
+        }
+        
+        
+        
+        label {
+            display: block;
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        
+        input,select {
+            width: 90%;
+            padding: 1.8rem 1.8rem;
+            font-size:1.8rem;
+            border: none;
+            border-radius: 15px;
+            background-color: #f8d8bd;
+            font-weight: 500;
+            color: #444;
+            font-family: inherit;
+        }
+        
+        input:focus,select:focus{
+            outline: none;
+            box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+        }
+        
+        
+        ::placeholder{
+            color: #888;
+            font-size: 1.8rem;
+        }
+
+        .register-btn {
+            grid-column: 1 / -1;
+            width: 50%;
+            border-radius: 10px;
+            justify-self: center;
+            padding: 1.2rem 2rem;
+            background-color: orange;
+            color: white;
+            font-size: 2rem;
+            border: none;
+            font-weight: 700;
+        }
+        
+        
+    }
+}

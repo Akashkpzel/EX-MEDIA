@@ -1,41 +1,52 @@
 .section-nav-bar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
     padding: 2rem 3rem;
-    .nav-bar-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        justify-content: space-between;
+    background: transparent; /* Initially transparent */
+    transition: background 0.4s ease-in-out; /* Smooth transition */
+}
 
-        .logo {
-            font-family: "Satisfy", serif;
-            font-weight: 400;
-            font-size: 3.6rem;
-            letter-spacing: 2px;
-            font-weight: bold;
-            color: white;
-        }
+.section-nav-bar.scrolled {
+    background: rgba(0, 0, 0, 0.9); /* Dark background when scrolling */
+}
 
-        .nav-bar-items {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 1rem;
+.nav-bar-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
 
-            .nav-bar-item {
-                width: 100%;
-                text-align: center;
-                font-size: 1.6rem;
-                text-transform: uppercase;
-                text-decoration: none;
-                color: white ;
-                font-weight: 600;
-            }
+.logo {
+    font-family: "Satisfy", serif;
+    font-weight: 400;
+    font-size: 3.6rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+}
 
-            .nav-bar-item:hover {
-                padding: 0.6rem 0.8rem;
-                border: 1px solid orange;
-                color: orange;
-            }
-        }
-    }
+.nav-bar-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.nav-bar-item {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.nav-bar-item:hover {
+    padding: 0.6rem 0.8rem;
+    border: 1px solid orange;
+    color: orange;
 }

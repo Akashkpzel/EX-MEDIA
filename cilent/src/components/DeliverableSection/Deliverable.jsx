@@ -2,7 +2,7 @@ import "./Deliverable.css"
 
 function Deliverable() {
     return (
-        <section className="section-deliverables">
+        <section className="section-deliverables" id="deliverables">
             <div className="deliverables-title">
                 <h1>Our Deliverables</h1>
                 <p>Best solutions & ideas for Your business. Elevate your impacts & connect brands with customers.</p>
@@ -89,8 +89,7 @@ function Deliverable() {
                 <div className="marquee-container">
 
                     <div className="items marquee-items1">
-                        <p className="teritory-heading">Alex Paul</p>
-                        <p className="teritory-heading">Creative Director</p>
+                        <p className="teritory-heading">Branding</p>
                         <div className="tags">
                             <span>Brand</span>
                             <span>llustration</span>

@@ -2,7 +2,7 @@ import './LandingSection.css';
 
 function LandingSection() {
   return (
-    <section className='section-landing'>
+    <section className='section-landing'id='home'>
         <span className='background'></span>
         <div className='title-text'>
             <h1>Think Beyond Your Ads</h1>

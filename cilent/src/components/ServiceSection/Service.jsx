@@ -4,7 +4,7 @@ const Service = () => {
     return (
         <>
 
-            <section className='section-service'>
+            <section className='section-service' id='services'>
                 <div className='service-title'>
                     <h1>How We Help You For Brand Positioning & Empower the Business</h1>
                     <p>Unlock untapped potential and accelerate business with tailored strategies, Dominate the market and leave competitors in the dust</p>
