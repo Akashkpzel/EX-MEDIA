@@ -1,0 +1,101 @@
+/* Footer Container */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    /* Increased padding for a bigger feel */
+    text-align: center;
+}
+
+/* Footer Content */
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+    /* Increased gap between sections */
+}
+
+/* Footer Sections */
+.footer-section {
+    flex: 1 1 300px;
+    /* Larger sections */
+    margin: 20px;
+
+    h3 {
+        font-size: 4rem;
+        color: orange;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    li {
+        font-size: 2rem;
+    }
+
+    /* Increased margin */
+}
+
+/* Footer Headings */
+.footer-heading {
+    font-size: 24px;
+    /* Larger font size */
+    margin-bottom: 20px;
+    /* Increased spacing */
+    font-weight: bold;
+}
+
+/* Footer Lists */
+.footer-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    /* Larger font size */
+    line-height: 1.8;
+    /* Increased line height */
+}
+
+/* Footer Links */
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Increased gap between icons */
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 32px;
+    /* Larger icons */
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: orange;
+    /* Change color on hover */
+}
+
+/* Copyright Section */
+.footer-copyright {
+    margin-top: 40px;
+    /* Increased margin */
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    /* Increased padding */
+    font-size: 16px;
+}

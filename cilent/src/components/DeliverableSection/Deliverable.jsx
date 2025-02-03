@@ -20,8 +20,7 @@ function Deliverable() {
                     </div>
                     {/* <!-- item 2 --> */}
                     <div className="items marquee-items2">
-                        <p className="teritory-heading">Nik Willams</p>
-                        <p className="teritory-heading">Digital Designer</p>
+                        <p className="teritory-heading">GRAPHICS</p>
                         <div className="tags">
                             <span>Brand</span>
                             <span>UI</span>
@@ -30,8 +29,7 @@ function Deliverable() {
                     </div>
                     {/* <!-- item 3 --> */}
                     <div className="items marquee-items3">
-                        <p className="teritory-heading">Chris Owens</p>
-                        <p className="teritory-heading">Lead Product Designer</p>
+                        <p className="teritory-heading">PHOTOGRAPHY</p>
                         <div className="tags">
                             <span>Product</span>
                             <span>UX</span>
@@ -41,8 +39,7 @@ function Deliverable() {
 
                     {/* <!-- item 4 --> */}
                     <div className="items marquee-items4">
-                        <p className="teritory-heading">Logan Carl</p>
-                        <p className="teritory-heading">Brand Designer</p>
+                        <p className="teritory-heading">VIDEO</p>
                         <div className="tags">
                             <span>Brand</span>
                             <span>Graphic Designer</span>
@@ -52,8 +49,7 @@ function Deliverable() {
 
                     {/* <!-- item 5 --> */}
                     <div className="items marquee-items5">
-                        <p className="teritory-heading">Sarah Willams</p>
-                        <p className="teritory-heading">Lead Product Designer</p>
+                        <p className="teritory-heading">DIGITAL MARKETING</p>
                         <div className="tags">
                             <span>Product</span>
                             <span>Management</span>
@@ -63,8 +59,7 @@ function Deliverable() {
 
                     {/* <!-- item 6 --> */}
                     <div className="items marquee-items6">
-                        <p className="teritory-heading">Julia Andre</p>
-                        <p className="teritory-heading">Principle Designer</p>
+                        <p className="teritory-heading">ANALYTICS AND INSIGHTS</p>
                         <div className="tags">
                             <span>Animation</span>
                             <span>Product</span>
@@ -74,8 +69,7 @@ function Deliverable() {
                     </div>
 
                     <div className="items marquee-items7">
-                        <p className="teritory-heading">Ann Benn</p>
-                        <p className="teritory-heading">Digital Designer</p>
+                        <p className="teritory-heading">SOCIAL MEDIA INFLUENCER MARKETING PROGRAM</p>
                         <div className="tags">
                             <span>Brand</span>
                             <span>UI/UX</span>
@@ -89,7 +83,7 @@ function Deliverable() {
                 <div className="marquee-container">
 
                     <div className="items marquee-items1">
-                        <p className="teritory-heading">Branding</p>
+                        <p className="teritory-heading">BRANDING</p>
                         <div className="tags">
                             <span>Brand</span>
                             <span>llustration</span>
@@ -98,8 +92,7 @@ function Deliverable() {
                     </div>
 
                     <div className="items marquee-items2">
-                        <p className="teritory-heading">Nik Willams</p>
-                        <p className="teritory-heading">Digital Designer</p>
+                        <p className="teritory-heading">GRAPHICS</p>
                         <div className="tags">
                             <span>Brand</span>
                             <span>UI</span>
@@ -108,8 +101,7 @@ function Deliverable() {
                     </div>
 
                     <div className="items marquee-items3">
-                        <p className="teritory-heading">Chris Owens</p>
-                        <p className="teritory-heading">Lead Product Designer</p>
+                        <p className="teritory-heading">PHOTOGRAPHY</p>
                         <div className="tags">
                             <span>Product</span>
                             <span>UX</span>
@@ -118,8 +110,7 @@ function Deliverable() {
                     </div>
 
                     <div className="items marquee-items4">
-                        <p className="teritory-heading">Logan Carl</p>
-                        <p className="teritory-heading">Brand Designer</p>
+                        <p className="teritory-heading">VIDEO</p>
                         <div className="tags">
                             <span>Brand</span>
                             <span>Graphic Designer</span>
@@ -128,8 +119,7 @@ function Deliverable() {
                     </div>
 
                     <div className="items marquee-items5">
-                        <p className="teritory-heading">Sarah Willams</p>
-                        <p className="teritory-heading">Lead Product Designer</p>
+                        <p className="teritory-heading">DIGITAL MARKETING</p>
                         <div className="tags">
                             <span>Product</span>
                             <span>Management</span>
@@ -138,8 +128,7 @@ function Deliverable() {
                     </div>
 
                     <div className="items marquee-items6">
-                        <p className="teritory-heading">Julia Andre</p>
-                        <p className="teritory-heading">Principle Designer</p>
+                        <p className="teritory-heading">ANALYTICS AND INSIGHTS</p>
                         <div className="tags">
                             <span>Animation</span>
                             <span>Product</span>
@@ -149,8 +138,7 @@ function Deliverable() {
                     </div>
 
                     <div className="items marquee-items7">
-                        <p className="teritory-heading">Ann Benn</p>
-                        <p className="teritory-heading">Digital Designer</p>
+                        <p className="teritory-heading">SOCIAL MEDIA INFLUENCER MARKETING PROGRAM</p>
                         <div className="tags">
                             <span>Brand</span>
                             <span>UI/UX</span>

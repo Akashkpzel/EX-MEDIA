@@ -27,13 +27,15 @@ const Service = () => {
                         <p>Elevate advertising with AI-powered apps—smarter campaigns, personalized content, and data-driven results.</p>
                     </div>
                     <div className='service'>
-                        <i className="fa-solid fa-chart-simple fa-xl icon"></i>
-                        <h3>Strategies</h3>
-                        <p>Shaping brands that resonate and endure. We craft strategic identities with lasting impact.</p>
+                        <i className="fa-solid fa-users fa-xl icon"></i>
+                        <h3>Social media</h3>
+                        <p>Embrace digital transformation to boost growth, engagement, and visibility on Google, Meta, and other platforms with Ex Technology.</p>
                     </div>
                 </div>
 
+                <a href="#getintouch">
                 <button className='service-btn'>Get in touch</button>
+                </a>
 
             </section>
 

@@ -9,8 +9,12 @@ function LandingSection() {
             <p> We are driving brand success through innovation, creativity, and strategic excellence. </p>
         </div>
         <div className='landing-action-btns'>
-            <button className='btn btn-outline-light btn-lg cta' >Get In Touch</button>
-            <button className='btn btn-outline-light btn-lg cta' >Secondary</button>
+          <a href="#getintouch">
+          <button className='btn btn-outline-light btn-lg cta' >Get In Touch</button>
+          </a>
+          <a href="#services">
+          <button className='btn btn-outline-light btn-lg cta' >Explore</button>
+          </a>
         </div>
     </section>
     

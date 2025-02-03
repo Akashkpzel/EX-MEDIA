@@ -5,6 +5,7 @@ import Service from './components/ServiceSection/Service'
 import Media from './components/MediaSection/Media'
 import Deliverable from './components/DeliverableSection/Deliverable'
 import About from './components/Aboutsection/About'
+import Footer from './components/FooterSection/Footer'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
        <Media/>
        <Deliverable/>
        <About/>
+       <Footer/>
      </div>
 
     </>

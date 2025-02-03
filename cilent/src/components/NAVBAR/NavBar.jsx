@@ -1,7 +1,16 @@
 import "./Navbar.css"
-import "./Navbar.js"
 
-function Navbar() {
+
+function NavBar() {
+  window.addEventListener("scroll", function () {
+    let navbar = document.querySelector(".section-nav-bar");
+    if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled"); 
+    }
+});
+
   return (
     <section className='section-nav-bar'>
       <div className='nav-bar-container'>
@@ -20,4 +29,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default NavBar
