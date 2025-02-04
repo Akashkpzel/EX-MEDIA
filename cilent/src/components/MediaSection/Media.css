@@ -2,47 +2,104 @@
     margin-top: 10rem;
     padding: 10rem 5rem;
     background-color: rgba(0, 0, 0, 0.82);
+}
 
-    .media-content {
-        margin: 0 5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 3rem;
-        .media-content-text {
-            h4 {
-                font-size: 2rem;
-                color: white;
-                font-weight: 300;
-                line-height: 1.6;
-        
-    
-                span {
-                    color: orange;
-                    font-weight: bold;
-                    font-size: 2.6rem;
-                }
-            } 
-        }
-        
-        button {
-            border: none;
-            text-decoration: none;
-            padding: 1rem 4rem;
-            color: white;
-            background-color: orange;
-            font-size: 1.6rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            }
-        
-        button:hover {
-            background-color:white;
-            color: black;
-        }
+
+.media-content {
+    margin: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+
+.media-content-text h4 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.media-content-text h4 span {
+    color: orange;
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+
+
+.media-content button {
+    border: none;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    color: white;
+    background-color: orange;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.media-content button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@media (max-width: 1024px) {
+    .section-media {
+        padding: 8rem 4rem;
     }
 
-    
-    
-    
+    .media-content {
+        margin: 0 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-media {
+        padding: 6rem 3rem;
+    }
+
+    .media-content {
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .media-content-text h4 {
+        font-size: 1.8rem;
+    }
+
+    .media-content-text h4 span {
+        font-size: 2.4rem;
+    }
+
+    .media-content button {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-media {
+        padding: 4rem 2rem;
+    }
+
+    .media-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .media-content-text h4 {
+        font-size: 1.6rem;
+    }
+
+    .media-content-text h4 span {
+        font-size: 2.2rem;
+    }
+
+    .media-content button {
+        width: 100%;
+    }
 }
