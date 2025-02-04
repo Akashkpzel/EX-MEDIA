@@ -1,5 +1,6 @@
+/* Navbar - Sticky & Transparent on Top */
 .section-nav-bar {
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -8,45 +9,87 @@
     transition: background 0.4s ease-in-out; /* Smooth transition */
 }
 
+/* Navbar Background on Scroll */
 .section-nav-bar.scrolled {
     background: rgba(0, 0, 0, 0.9); /* Dark background when scrolling */
 }
 
+/* Navbar Container */
 .nav-bar-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+/* Logo */
 .logo {
     font-family: "Satisfy", serif;
-    font-weight: 400;
     font-size: 3.6rem;
-    letter-spacing: 2px;
     font-weight: bold;
+    letter-spacing: 2px;
     color: white;
 }
 
+/* Navigation Menu */
 .nav-bar-items {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 1rem;
 }
 
+/* Navigation Links */
 .nav-bar-item {
-    width: 100%;
     text-align: center;
     font-size: 1.6rem;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
     font-weight: 600;
+    padding: 0.6rem 1rem;
 }
 
+/* Hover Effect */
 .nav-bar-item:hover {
-    padding: 0.6rem 0.8rem;
     border: 1px solid orange;
     color: orange;
+}
+
+/* Hamburger Menu (Hidden by Default) */
+.hamburger {
+    display: none;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .nav-bar-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* Show Hamburger Menu */
+    .hamburger {
+        display: block;
+    }
+
+    /* Hide Navigation Items Initially */
+    .nav-bar-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    /* Show Menu when Active */
+    .nav-bar-items.active {
+        display: flex;
+    }
 }
